@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/logo10.png">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Register</h2>
+        <form id="registerForm">
+
+            <div class="form-group">
+                <input type="text" id="username" placeholder="Enter your username">
+                <small>Please enter at least 5 to 20 characters, including small and capital letters.</small>
+            </div>
+
+            <div class="form-group">
+                <input type="text" id="phone" placeholder="Enter your Phone">
+                <small>Please enter a valid phone number with 12 digits.</small>
+            </div>
+
+            <div class="form-group">
+                <input type="email" id="email" placeholder="Enter your email">
+                <small>The email must end with gmail.com, gmail.org, gmail.net, or yahoo.com.</small>
+            </div>
+
+            <div class="form-group">
+                <input type="password" id="password" placeholder="Create password">
+                <small>Please enter at least 8 characters with numbers, symbols, small, and capital letters.</small>
+            </div>
+
+            <div class="form-group">
+                <input type="password" id="confirmPassword" placeholder="Confirm password">
+                <small id="passwordMismatch">Password doesn't match.</small>
+            </div>
+
+            <button type="submit">Register</button>
+            <p>Already have an account? <a href="#">Login</a></p>
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
